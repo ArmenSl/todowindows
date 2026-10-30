@@ -1,0 +1,119 @@
+{
+  "version": "0.1",
+  "id": "08cebedc-fda0-432d-bb4e-226ea90707be",
+  "timestamp": "2026-10-30T12:32:31+00:00",
+  "tool": {
+    "name": "BESSER Spec-Driven Agent",
+    "version": "8.6.1"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "conversations": [
+        {
+          "contributor": {
+            "type": "ai",
+            "model_id": "gpt-5.6-terra"
+          },
+          "ranges": [
+            {
+              "start_line": 1,
+              "end_line": 20,
+              "content_hash": "sha256:0f28dc29979a49dd45c6946077089c231420c6a521516e4fe6a37b416c4476c1"
+            }
+          ],
+          "related": [
+            {
+              "type": "session",
+              "url": "urn:besser:run:0e794481dd224597bfe127956dcc9708"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "README.md",
+      "conversations": [
+        {
+          "contributor": {
+            "type": "ai",
+            "model_id": "gpt-5.6-terra"
+          },
+          "ranges": [
+            {
+              "start_line": 1,
+              "end_line": 11,
+              "content_hash": "sha256:f44ba4f7c4160cd01d4d57457c38870534f6b908b41ffec289a2d75b33a7f623"
+            }
+          ],
+          "related": [
+            {
+              "type": "session",
+              "url": "urn:besser:run:0e794481dd224597bfe127956dcc9708"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "pyproject.toml",
+      "conversations": [
+        {
+          "contributor": {
+            "type": "ai",
+            "model_id": "gpt-5.6-terra"
+          },
+          "ranges": [
+            {
+              "start_line": 1,
+              "end_line": 11,
+              "content_hash": "sha256:f289d282b9a514aadae136a0117377f6b13b7213caf4998ee78abc31c873a1a2"
+            }
+          ],
+          "related": [
+            {
+              "type": "session",
+              "url": "urn:besser:run:0e794481dd224597bfe127956dcc9708"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "todo_app.py",
+      "conversations": [
+        {
+          "contributor": {
+            "type": "ai",
+            "model_id": "gpt-5.6-terra"
+          },
+          "ranges": [
+            {
+              "start_line": 1,
+              "end_line": 341,
+              "content_hash": "sha256:51d1831fa077daf1be4825499fc80b43a7c4f2f61fc2e16dcf093e0a72dec292"
+            }
+          ],
+          "related": [
+            {
+              "type": "session",
+              "url": "urn:besser:run:0e794481dd224597bfe127956dcc9708"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "org.besser-pearl": {
+      "run_id": "0e794481dd224597bfe127956dcc9708",
+      "lines": {
+        "generator": 0,
+        "ai": 383,
+        "human": 0,
+        "unknown": 0
+      },
+      "model_id": "gpt-5.6-terra"
+    }
+  }
+}

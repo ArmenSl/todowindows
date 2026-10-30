@@ -1,0 +1,1802 @@
+{
+  "project": {
+    "id": "2c3a9c31-bade-44f2-b443-1ccf6ee6f444",
+    "type": "Project",
+    "schemaVersion": 6,
+    "name": "New_Project",
+    "description": "Modern workspace project for UML, GUI and quantum modeling.",
+    "owner": "BESSER User",
+    "createdAt": "2026-10-30T12:30:00.359Z",
+    "currentDiagramType": "ClassDiagram",
+    "currentDiagramIndices": {
+      "ClassDiagram": 0,
+      "ObjectDiagram": 0,
+      "StateMachineDiagram": 0,
+      "AgentDiagram": 0,
+      "ComponentDiagram": 0,
+      "DeploymentDiagram": 0,
+      "UserDiagram": 0,
+      "GUINoCodeDiagram": 0,
+      "KnowledgeGraphDiagram": 0,
+      "QuantumCircuitDiagram": 0,
+      "NNDiagram": 0,
+      "BPMN": 0
+    },
+    "diagrams": {
+      "ClassDiagram": [
+        {
+          "id": "7b13911c-b854-4b5f-9a5c-5b4350f2490c",
+          "title": "Class Diagram",
+          "model": {
+            "version": "3.0.0",
+            "type": "ClassDiagram",
+            "size": {
+              "width": 1600,
+              "height": 1305
+            },
+            "interactive": {
+              "elements": {},
+              "relationships": {}
+            },
+            "elements": {
+              "class_9naxt6pyi_mvuyabvg_7hm": {
+                "id": "class_9naxt6pyi_mvuyabvg_7hm",
+                "name": "User",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": -197.33333333333337,
+                  "y": -632.5,
+                  "width": 220,
+                  "height": 190
+                },
+                "attributes": [
+                  "attr_oalgc9xmb_mvuyabvg_fjv",
+                  "attr_5wtf17s4x_mvuyabvg_l7n",
+                  "attr_o4d2i12c2_mvuyabvg_bc9",
+                  "attr_tcuwv54xp_mvuyabvg_hhe",
+                  "attr_jr36erkl9_mvuyabvg_l16",
+                  "attr_u98i4pbit_mvuyabvg_8fv"
+                ],
+                "methods": []
+              },
+              "attr_oalgc9xmb_mvuyabvg_fjv": {
+                "id": "attr_oalgc9xmb_mvuyabvg_fjv",
+                "name": "id",
+                "type": "ClassAttribute",
+                "owner": "class_9naxt6pyi_mvuyabvg_7hm",
+                "bounds": {
+                  "x": -196.83333333333337,
+                  "y": -592,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_5wtf17s4x_mvuyabvg_l7n": {
+                "id": "attr_5wtf17s4x_mvuyabvg_l7n",
+                "name": "username",
+                "type": "ClassAttribute",
+                "owner": "class_9naxt6pyi_mvuyabvg_7hm",
+                "bounds": {
+                  "x": -196.83333333333337,
+                  "y": -567,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_o4d2i12c2_mvuyabvg_bc9": {
+                "id": "attr_o4d2i12c2_mvuyabvg_bc9",
+                "name": "email",
+                "type": "ClassAttribute",
+                "owner": "class_9naxt6pyi_mvuyabvg_7hm",
+                "bounds": {
+                  "x": -196.83333333333337,
+                  "y": -542,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_tcuwv54xp_mvuyabvg_hhe": {
+                "id": "attr_tcuwv54xp_mvuyabvg_hhe",
+                "name": "displayName",
+                "type": "ClassAttribute",
+                "owner": "class_9naxt6pyi_mvuyabvg_7hm",
+                "bounds": {
+                  "x": -196.83333333333337,
+                  "y": -517,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_jr36erkl9_mvuyabvg_l16": {
+                "id": "attr_jr36erkl9_mvuyabvg_l16",
+                "name": "createdAt",
+                "type": "ClassAttribute",
+                "owner": "class_9naxt6pyi_mvuyabvg_7hm",
+                "bounds": {
+                  "x": -196.83333333333337,
+                  "y": -492,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_u98i4pbit_mvuyabvg_8fv": {
+                "id": "attr_u98i4pbit_mvuyabvg_8fv",
+                "name": "updatedAt",
+                "type": "ClassAttribute",
+                "owner": "class_9naxt6pyi_mvuyabvg_7hm",
+                "bounds": {
+                  "x": -196.83333333333337,
+                  "y": -467,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_2t4o6akde_mvuyabvg_n03": {
+                "id": "class_2t4o6akde_mvuyabvg_n03",
+                "name": "TodoList",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": -234,
+                  "y": -322.5,
+                  "width": 220,
+                  "height": 165
+                },
+                "attributes": [
+                  "attr_b54e9ld86_mvuyabvh_39s",
+                  "attr_f90ba5yt4_mvuyabvh_0mg",
+                  "attr_lkcrois2o_mvuyabvh_anb",
+                  "attr_8jljtd5vh_mvuyabvh_218",
+                  "attr_rhaas9pm0_mvuyabvh_666"
+                ],
+                "methods": []
+              },
+              "attr_b54e9ld86_mvuyabvh_39s": {
+                "id": "attr_b54e9ld86_mvuyabvh_39s",
+                "name": "id",
+                "type": "ClassAttribute",
+                "owner": "class_2t4o6akde_mvuyabvg_n03",
+                "bounds": {
+                  "x": -233.5,
+                  "y": -282,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_f90ba5yt4_mvuyabvh_0mg": {
+                "id": "attr_f90ba5yt4_mvuyabvh_0mg",
+                "name": "name",
+                "type": "ClassAttribute",
+                "owner": "class_2t4o6akde_mvuyabvg_n03",
+                "bounds": {
+                  "x": -233.5,
+                  "y": -257,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_lkcrois2o_mvuyabvh_anb": {
+                "id": "attr_lkcrois2o_mvuyabvh_anb",
+                "name": "description",
+                "type": "ClassAttribute",
+                "owner": "class_2t4o6akde_mvuyabvg_n03",
+                "bounds": {
+                  "x": -233.5,
+                  "y": -232,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": true,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_8jljtd5vh_mvuyabvh_218": {
+                "id": "attr_8jljtd5vh_mvuyabvh_218",
+                "name": "createdAt",
+                "type": "ClassAttribute",
+                "owner": "class_2t4o6akde_mvuyabvg_n03",
+                "bounds": {
+                  "x": -233.5,
+                  "y": -207,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_rhaas9pm0_mvuyabvh_666": {
+                "id": "attr_rhaas9pm0_mvuyabvh_666",
+                "name": "updatedAt",
+                "type": "ClassAttribute",
+                "owner": "class_2t4o6akde_mvuyabvg_n03",
+                "bounds": {
+                  "x": -233.5,
+                  "y": -182,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_z61htn5hp_mvuyabvh_9uq": {
+                "id": "class_z61htn5hp_mvuyabvh_9uq",
+                "name": "TodoItem",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": -234,
+                  "y": -37.5,
+                  "width": 220,
+                  "height": 340
+                },
+                "attributes": [
+                  "attr_e9aru2azk_mvuyabvh_afz",
+                  "attr_1s652mfcq_mvuyabvh_ems",
+                  "attr_zqum25vfy_mvuyabvh_x5w",
+                  "attr_z48hy17dj_mvuyabvh_9ir",
+                  "attr_xndhx7nyr_mvuyabvh_ses",
+                  "attr_xnim4975m_mvuyabvh_gmc",
+                  "attr_kncaiki7l_mvuyabvh_llj",
+                  "attr_s32avtpga_mvuyabvh_24f",
+                  "attr_438bhuv4a_mvuyabvh_rwe",
+                  "attr_srumi36pr_mvuyabvh_wzk"
+                ],
+                "methods": [
+                  "method_he36x9fa1_mvuyabvh_ngc",
+                  "method_1zf38671v_mvuyabvh_yaf"
+                ]
+              },
+              "attr_e9aru2azk_mvuyabvh_afz": {
+                "id": "attr_e9aru2azk_mvuyabvh_afz",
+                "name": "id",
+                "type": "ClassAttribute",
+                "owner": "class_z61htn5hp_mvuyabvh_9uq",
+                "bounds": {
+                  "x": -233.5,
+                  "y": 3,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_1s652mfcq_mvuyabvh_ems": {
+                "id": "attr_1s652mfcq_mvuyabvh_ems",
+                "name": "title",
+                "type": "ClassAttribute",
+                "owner": "class_z61htn5hp_mvuyabvh_9uq",
+                "bounds": {
+                  "x": -233.5,
+                  "y": 28,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_zqum25vfy_mvuyabvh_x5w": {
+                "id": "attr_zqum25vfy_mvuyabvh_x5w",
+                "name": "description",
+                "type": "ClassAttribute",
+                "owner": "class_z61htn5hp_mvuyabvh_9uq",
+                "bounds": {
+                  "x": -233.5,
+                  "y": 53,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": true,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_z48hy17dj_mvuyabvh_9ir": {
+                "id": "attr_z48hy17dj_mvuyabvh_9ir",
+                "name": "dueDate",
+                "type": "ClassAttribute",
+                "owner": "class_z61htn5hp_mvuyabvh_9uq",
+                "bounds": {
+                  "x": -233.5,
+                  "y": 78,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "date",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": true,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_xndhx7nyr_mvuyabvh_ses": {
+                "id": "attr_xndhx7nyr_mvuyabvh_ses",
+                "name": "createdAt",
+                "type": "ClassAttribute",
+                "owner": "class_z61htn5hp_mvuyabvh_9uq",
+                "bounds": {
+                  "x": -233.5,
+                  "y": 103,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_xnim4975m_mvuyabvh_gmc": {
+                "id": "attr_xnim4975m_mvuyabvh_gmc",
+                "name": "updatedAt",
+                "type": "ClassAttribute",
+                "owner": "class_z61htn5hp_mvuyabvh_9uq",
+                "bounds": {
+                  "x": -233.5,
+                  "y": 128,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_kncaiki7l_mvuyabvh_llj": {
+                "id": "attr_kncaiki7l_mvuyabvh_llj",
+                "name": "completedAt",
+                "type": "ClassAttribute",
+                "owner": "class_z61htn5hp_mvuyabvh_9uq",
+                "bounds": {
+                  "x": -233.5,
+                  "y": 153,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": true,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_s32avtpga_mvuyabvh_24f": {
+                "id": "attr_s32avtpga_mvuyabvh_24f",
+                "name": "status",
+                "type": "ClassAttribute",
+                "owner": "class_z61htn5hp_mvuyabvh_9uq",
+                "bounds": {
+                  "x": -233.5,
+                  "y": 178,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "TodoStatus",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_438bhuv4a_mvuyabvh_rwe": {
+                "id": "attr_438bhuv4a_mvuyabvh_rwe",
+                "name": "priority",
+                "type": "ClassAttribute",
+                "owner": "class_z61htn5hp_mvuyabvh_9uq",
+                "bounds": {
+                  "x": -233.5,
+                  "y": 203,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "Priority",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_srumi36pr_mvuyabvh_wzk": {
+                "id": "attr_srumi36pr_mvuyabvh_wzk",
+                "name": "isArchived",
+                "type": "ClassAttribute",
+                "owner": "class_z61htn5hp_mvuyabvh_9uq",
+                "bounds": {
+                  "x": -233.5,
+                  "y": 228,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "bool",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "method_he36x9fa1_mvuyabvh_ngc": {
+                "id": "method_he36x9fa1_mvuyabvh_ngc",
+                "name": "toggleComplete()",
+                "type": "ClassMethod",
+                "owner": "class_z61htn5hp_mvuyabvh_9uq",
+                "bounds": {
+                  "x": -233.5,
+                  "y": 253,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "any",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "method_1zf38671v_mvuyabvh_yaf": {
+                "id": "method_1zf38671v_mvuyabvh_yaf",
+                "name": "postpone(days: int)",
+                "type": "ClassMethod",
+                "owner": "class_z61htn5hp_mvuyabvh_9uq",
+                "bounds": {
+                  "x": -233.5,
+                  "y": 278,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "any",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_szrvoc3ib_mvuyabvh_vp8": {
+                "id": "class_szrvoc3ib_mvuyabvh_vp8",
+                "name": "Tag",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": -20,
+                  "y": 432.5,
+                  "width": 220,
+                  "height": 140
+                },
+                "attributes": [
+                  "attr_r8icgx6hk_mvuyabvh_6z4",
+                  "attr_s4j6quqrz_mvuyabvh_34q",
+                  "attr_sag37woft_mvuyabvh_07v",
+                  "attr_ko8d5k214_mvuyabvh_f58"
+                ],
+                "methods": []
+              },
+              "attr_r8icgx6hk_mvuyabvh_6z4": {
+                "id": "attr_r8icgx6hk_mvuyabvh_6z4",
+                "name": "id",
+                "type": "ClassAttribute",
+                "owner": "class_szrvoc3ib_mvuyabvh_vp8",
+                "bounds": {
+                  "x": -19.5,
+                  "y": 473,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_s4j6quqrz_mvuyabvh_34q": {
+                "id": "attr_s4j6quqrz_mvuyabvh_34q",
+                "name": "name",
+                "type": "ClassAttribute",
+                "owner": "class_szrvoc3ib_mvuyabvh_vp8",
+                "bounds": {
+                  "x": -19.5,
+                  "y": 498,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_sag37woft_mvuyabvh_07v": {
+                "id": "attr_sag37woft_mvuyabvh_07v",
+                "name": "createdAt",
+                "type": "ClassAttribute",
+                "owner": "class_szrvoc3ib_mvuyabvh_vp8",
+                "bounds": {
+                  "x": -19.5,
+                  "y": 523,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_ko8d5k214_mvuyabvh_f58": {
+                "id": "attr_ko8d5k214_mvuyabvh_f58",
+                "name": "updatedAt",
+                "type": "ClassAttribute",
+                "owner": "class_szrvoc3ib_mvuyabvh_vp8",
+                "bounds": {
+                  "x": -19.5,
+                  "y": 548,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_dap0xone0_mvuyabvh_tvj": {
+                "id": "class_dap0xone0_mvuyabvh_tvj",
+                "name": "Reminder",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": -300,
+                  "y": 432.5,
+                  "width": 220,
+                  "height": 165
+                },
+                "attributes": [
+                  "attr_anifoda9j_mvuyabvh_k71",
+                  "attr_ycsx2oydg_mvuyabvh_r65",
+                  "attr_9c3g9jed1_mvuyabvh_phn",
+                  "attr_bzhxblt4m_mvuyabvh_pmc",
+                  "attr_cqww7tbq6_mvuyabvh_f1b"
+                ],
+                "methods": []
+              },
+              "attr_anifoda9j_mvuyabvh_k71": {
+                "id": "attr_anifoda9j_mvuyabvh_k71",
+                "name": "id",
+                "type": "ClassAttribute",
+                "owner": "class_dap0xone0_mvuyabvh_tvj",
+                "bounds": {
+                  "x": -299.5,
+                  "y": 473,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_ycsx2oydg_mvuyabvh_r65": {
+                "id": "attr_ycsx2oydg_mvuyabvh_r65",
+                "name": "remindAt",
+                "type": "ClassAttribute",
+                "owner": "class_dap0xone0_mvuyabvh_tvj",
+                "bounds": {
+                  "x": -299.5,
+                  "y": 498,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_9c3g9jed1_mvuyabvh_phn": {
+                "id": "attr_9c3g9jed1_mvuyabvh_phn",
+                "name": "isSent",
+                "type": "ClassAttribute",
+                "owner": "class_dap0xone0_mvuyabvh_tvj",
+                "bounds": {
+                  "x": -299.5,
+                  "y": 523,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "bool",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_bzhxblt4m_mvuyabvh_pmc": {
+                "id": "attr_bzhxblt4m_mvuyabvh_pmc",
+                "name": "createdAt",
+                "type": "ClassAttribute",
+                "owner": "class_dap0xone0_mvuyabvh_tvj",
+                "bounds": {
+                  "x": -299.5,
+                  "y": 548,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_cqww7tbq6_mvuyabvh_f1b": {
+                "id": "attr_cqww7tbq6_mvuyabvh_f1b",
+                "name": "updatedAt",
+                "type": "ClassAttribute",
+                "owner": "class_dap0xone0_mvuyabvh_tvj",
+                "bounds": {
+                  "x": -299.5,
+                  "y": 573,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_475x1yy26_mvuyabvh_nuu": {
+                "id": "class_475x1yy26_mvuyabvh_nuu",
+                "name": "Attachment",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": 260,
+                  "y": 432.5,
+                  "width": 220,
+                  "height": 190
+                },
+                "attributes": [
+                  "attr_dzdclb1rd_mvuyabvh_ayf",
+                  "attr_x2b6gg75p_mvuyabvh_3zd",
+                  "attr_wego3hcam_mvuyabvh_804",
+                  "attr_ltq4cgti6_mvuyabvh_zjb",
+                  "attr_746wos2bw_mvuyabvh_skm",
+                  "attr_o48mbychy_mvuyabvh_6qg"
+                ],
+                "methods": []
+              },
+              "attr_dzdclb1rd_mvuyabvh_ayf": {
+                "id": "attr_dzdclb1rd_mvuyabvh_ayf",
+                "name": "id",
+                "type": "ClassAttribute",
+                "owner": "class_475x1yy26_mvuyabvh_nuu",
+                "bounds": {
+                  "x": 260.5,
+                  "y": 473,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_x2b6gg75p_mvuyabvh_3zd": {
+                "id": "attr_x2b6gg75p_mvuyabvh_3zd",
+                "name": "fileName",
+                "type": "ClassAttribute",
+                "owner": "class_475x1yy26_mvuyabvh_nuu",
+                "bounds": {
+                  "x": 260.5,
+                  "y": 498,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_wego3hcam_mvuyabvh_804": {
+                "id": "attr_wego3hcam_mvuyabvh_804",
+                "name": "fileSizeBytes",
+                "type": "ClassAttribute",
+                "owner": "class_475x1yy26_mvuyabvh_nuu",
+                "bounds": {
+                  "x": 260.5,
+                  "y": 523,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "int",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_ltq4cgti6_mvuyabvh_zjb": {
+                "id": "attr_ltq4cgti6_mvuyabvh_zjb",
+                "name": "mimeType",
+                "type": "ClassAttribute",
+                "owner": "class_475x1yy26_mvuyabvh_nuu",
+                "bounds": {
+                  "x": 260.5,
+                  "y": 548,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_746wos2bw_mvuyabvh_skm": {
+                "id": "attr_746wos2bw_mvuyabvh_skm",
+                "name": "createdAt",
+                "type": "ClassAttribute",
+                "owner": "class_475x1yy26_mvuyabvh_nuu",
+                "bounds": {
+                  "x": 260.5,
+                  "y": 573,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_o48mbychy_mvuyabvh_6qg": {
+                "id": "attr_o48mbychy_mvuyabvh_6qg",
+                "name": "updatedAt",
+                "type": "ClassAttribute",
+                "owner": "class_475x1yy26_mvuyabvh_nuu",
+                "bounds": {
+                  "x": 260.5,
+                  "y": 598,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_ibp1gf23h_mvuyabvh_ccb": {
+                "id": "class_ibp1gf23h_mvuyabvh_ccb",
+                "name": "Comment",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": 540,
+                  "y": 432.5,
+                  "width": 220,
+                  "height": 140
+                },
+                "attributes": [
+                  "attr_wlelg86y2_mvuyabvh_fwd",
+                  "attr_9vlfjtp4l_mvuyabvh_m0q",
+                  "attr_16v6gsxvs_mvuyabvh_juy",
+                  "attr_mj5v3vrtg_mvuyabvh_hlq"
+                ],
+                "methods": []
+              },
+              "attr_wlelg86y2_mvuyabvh_fwd": {
+                "id": "attr_wlelg86y2_mvuyabvh_fwd",
+                "name": "id",
+                "type": "ClassAttribute",
+                "owner": "class_ibp1gf23h_mvuyabvh_ccb",
+                "bounds": {
+                  "x": 540.5,
+                  "y": 473,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_9vlfjtp4l_mvuyabvh_m0q": {
+                "id": "attr_9vlfjtp4l_mvuyabvh_m0q",
+                "name": "body",
+                "type": "ClassAttribute",
+                "owner": "class_ibp1gf23h_mvuyabvh_ccb",
+                "bounds": {
+                  "x": 540.5,
+                  "y": 498,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_16v6gsxvs_mvuyabvh_juy": {
+                "id": "attr_16v6gsxvs_mvuyabvh_juy",
+                "name": "createdAt",
+                "type": "ClassAttribute",
+                "owner": "class_ibp1gf23h_mvuyabvh_ccb",
+                "bounds": {
+                  "x": 540.5,
+                  "y": 523,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_mj5v3vrtg_mvuyabvh_hlq": {
+                "id": "attr_mj5v3vrtg_mvuyabvh_hlq",
+                "name": "updatedAt",
+                "type": "ClassAttribute",
+                "owner": "class_ibp1gf23h_mvuyabvh_ccb",
+                "bounds": {
+                  "x": 540.5,
+                  "y": 548,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_vy83iy1f5_mvuyabvh_0h3": {
+                "id": "class_vy83iy1f5_mvuyabvh_0h3",
+                "name": "TodoStatus",
+                "type": "Enumeration",
+                "owner": null,
+                "bounds": {
+                  "x": -780,
+                  "y": -632.5,
+                  "width": 220,
+                  "height": 150
+                },
+                "attributes": [
+                  "attr_40xwz26mq_mvuyabvh_vwy",
+                  "attr_gwifdqmu8_mvuyabvh_f1o",
+                  "attr_gsxm1vu4z_mvuyabvh_mhh",
+                  "attr_52n5m3ri4_mvuyabvh_smo"
+                ],
+                "methods": []
+              },
+              "attr_40xwz26mq_mvuyabvh_vwy": {
+                "id": "attr_40xwz26mq_mvuyabvh_vwy",
+                "name": "TODO",
+                "type": "ClassAttribute",
+                "owner": "class_vy83iy1f5_mvuyabvh_0h3",
+                "bounds": {
+                  "x": -779.5,
+                  "y": -582,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_gwifdqmu8_mvuyabvh_f1o": {
+                "id": "attr_gwifdqmu8_mvuyabvh_f1o",
+                "name": "IN_PROGRESS",
+                "type": "ClassAttribute",
+                "owner": "class_vy83iy1f5_mvuyabvh_0h3",
+                "bounds": {
+                  "x": -779.5,
+                  "y": -557,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_gsxm1vu4z_mvuyabvh_mhh": {
+                "id": "attr_gsxm1vu4z_mvuyabvh_mhh",
+                "name": "DONE",
+                "type": "ClassAttribute",
+                "owner": "class_vy83iy1f5_mvuyabvh_0h3",
+                "bounds": {
+                  "x": -779.5,
+                  "y": -532,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_52n5m3ri4_mvuyabvh_smo": {
+                "id": "attr_52n5m3ri4_mvuyabvh_smo",
+                "name": "CANCELLED",
+                "type": "ClassAttribute",
+                "owner": "class_vy83iy1f5_mvuyabvh_0h3",
+                "bounds": {
+                  "x": -779.5,
+                  "y": -507,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_v402nbkd3_mvuyabvh_6zd": {
+                "id": "class_v402nbkd3_mvuyabvh_6zd",
+                "name": "Priority",
+                "type": "Enumeration",
+                "owner": null,
+                "bounds": {
+                  "x": -540,
+                  "y": -632.5,
+                  "width": 220,
+                  "height": 150
+                },
+                "attributes": [
+                  "attr_wr8pph1h7_mvuyabvh_5h2",
+                  "attr_mbpjnfgit_mvuyabvh_6an",
+                  "attr_0flbgbqv1_mvuyabvh_wwd",
+                  "attr_3afz62ylw_mvuyabvh_hpa"
+                ],
+                "methods": []
+              },
+              "attr_wr8pph1h7_mvuyabvh_5h2": {
+                "id": "attr_wr8pph1h7_mvuyabvh_5h2",
+                "name": "LOW",
+                "type": "ClassAttribute",
+                "owner": "class_v402nbkd3_mvuyabvh_6zd",
+                "bounds": {
+                  "x": -539.5,
+                  "y": -582,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_mbpjnfgit_mvuyabvh_6an": {
+                "id": "attr_mbpjnfgit_mvuyabvh_6an",
+                "name": "MEDIUM",
+                "type": "ClassAttribute",
+                "owner": "class_v402nbkd3_mvuyabvh_6zd",
+                "bounds": {
+                  "x": -539.5,
+                  "y": -557,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_0flbgbqv1_mvuyabvh_wwd": {
+                "id": "attr_0flbgbqv1_mvuyabvh_wwd",
+                "name": "HIGH",
+                "type": "ClassAttribute",
+                "owner": "class_v402nbkd3_mvuyabvh_6zd",
+                "bounds": {
+                  "x": -539.5,
+                  "y": -532,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_3afz62ylw_mvuyabvh_hpa": {
+                "id": "attr_3afz62ylw_mvuyabvh_hpa",
+                "name": "URGENT",
+                "type": "ClassAttribute",
+                "owner": "class_v402nbkd3_mvuyabvh_6zd",
+                "bounds": {
+                  "x": -539.5,
+                  "y": -507,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              }
+            },
+            "relationships": {
+              "rel_7v64szi1q_mvuyabvh_rmp": {
+                "id": "rel_7v64szi1q_mvuyabvh_rmp",
+                "name": "lists",
+                "type": "ClassBidirectional",
+                "owner": null,
+                "bounds": {
+                  "x": -155.2802569071452,
+                  "y": -442.5,
+                  "width": 78.76625442504883,
+                  "height": 130.18181800842285
+                },
+                "path": [
+                  {
+                    "x": 49.613590240478516,
+                    "y": 0
+                  },
+                  {
+                    "x": 49.613590240478516,
+                    "y": 120
+                  }
+                ],
+                "source": {
+                  "direction": "Down",
+                  "element": "class_9naxt6pyi_mvuyabvg_7hm",
+                  "multiplicity": "1",
+                  "role": "owner",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Up",
+                  "element": "class_2t4o6akde_mvuyabvg_n03",
+                  "multiplicity": "0..*",
+                  "role": "lists",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              },
+              "rel_zgh9l5uxs_mvuyabvh_sc0": {
+                "id": "rel_zgh9l5uxs_mvuyabvh_sc0",
+                "name": "items",
+                "type": "ClassBidirectional",
+                "owner": null,
+                "bounds": {
+                  "x": -167.40835571289062,
+                  "y": -362.5,
+                  "width": 193.40835571289062,
+                  "height": 705
+                },
+                "path": [
+                  {
+                    "x": 43.408355712890625,
+                    "y": 40
+                  },
+                  {
+                    "x": 43.408355712890625,
+                    "y": 0
+                  },
+                  {
+                    "x": 193.40835571289062,
+                    "y": 0
+                  },
+                  {
+                    "x": 193.40835571289062,
+                    "y": 705
+                  },
+                  {
+                    "x": 43.408355712890625,
+                    "y": 705
+                  },
+                  {
+                    "x": 43.408355712890625,
+                    "y": 665
+                  }
+                ],
+                "source": {
+                  "direction": "Up",
+                  "element": "class_2t4o6akde_mvuyabvg_n03",
+                  "multiplicity": "1",
+                  "role": "list",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Down",
+                  "element": "class_z61htn5hp_mvuyabvh_9uq",
+                  "multiplicity": "0..*",
+                  "role": "items",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              },
+              "rel_md5qaw7to_mvuyabvh_v7f": {
+                "id": "rel_md5qaw7to_mvuyabvh_v7f",
+                "name": "tags",
+                "type": "ClassBidirectional",
+                "owner": null,
+                "bounds": {
+                  "x": -217.23639678955078,
+                  "y": 302.5,
+                  "width": 336.3890609741211,
+                  "height": 140.18181800842285
+                },
+                "path": [
+                  {
+                    "x": 93.23639678955078,
+                    "y": 0
+                  },
+                  {
+                    "x": 93.23639678955078,
+                    "y": 65
+                  },
+                  {
+                    "x": 307.2363967895508,
+                    "y": 65
+                  },
+                  {
+                    "x": 307.2363967895508,
+                    "y": 130
+                  }
+                ],
+                "source": {
+                  "direction": "Down",
+                  "element": "class_z61htn5hp_mvuyabvh_9uq",
+                  "multiplicity": "0..*",
+                  "role": "taggedItems",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Up",
+                  "element": "class_szrvoc3ib_mvuyabvh_vp8",
+                  "multiplicity": "0..*",
+                  "role": "tags",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              },
+              "rel_3oyhin5l3_mvuyabvh_tai": {
+                "id": "rel_3oyhin5l3_mvuyabvh_tai",
+                "name": "reminders",
+                "type": "ClassBidirectional",
+                "owner": null,
+                "bounds": {
+                  "x": -233.31456756591797,
+                  "y": 302.5,
+                  "width": 105.46723175048828,
+                  "height": 140.18181800842285
+                },
+                "path": [
+                  {
+                    "x": 76.31456756591797,
+                    "y": 0
+                  },
+                  {
+                    "x": 76.31456756591797,
+                    "y": 130
+                  }
+                ],
+                "source": {
+                  "direction": "Down",
+                  "element": "class_z61htn5hp_mvuyabvh_9uq",
+                  "multiplicity": "1",
+                  "role": "todoItem",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Up",
+                  "element": "class_dap0xone0_mvuyabvh_tvj",
+                  "multiplicity": "0..*",
+                  "role": "reminders",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              },
+              "rel_md950q20x_mvuyabvh_dbf": {
+                "id": "rel_md950q20x_mvuyabvh_dbf",
+                "name": "attachments",
+                "type": "ClassBidirectional",
+                "owner": null,
+                "bounds": {
+                  "x": -191.56597137451172,
+                  "y": 302.5,
+                  "width": 590.718635559082,
+                  "height": 140.18181800842285
+                },
+                "path": [
+                  {
+                    "x": 67.56597137451172,
+                    "y": 0
+                  },
+                  {
+                    "x": 67.56597137451172,
+                    "y": 65
+                  },
+                  {
+                    "x": 561.5659713745117,
+                    "y": 65
+                  },
+                  {
+                    "x": 561.5659713745117,
+                    "y": 130
+                  }
+                ],
+                "source": {
+                  "direction": "Down",
+                  "element": "class_z61htn5hp_mvuyabvh_9uq",
+                  "multiplicity": "1",
+                  "role": "todoItem",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Up",
+                  "element": "class_475x1yy26_mvuyabvh_nuu",
+                  "multiplicity": "0..*",
+                  "role": "attachments",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              },
+              "rel_h2rn29nl8_mvuyabvh_l6y": {
+                "id": "rel_h2rn29nl8_mvuyabvh_l6y",
+                "name": "comments",
+                "type": "ClassBidirectional",
+                "owner": null,
+                "bounds": {
+                  "x": -191.56597137451172,
+                  "y": 302.5,
+                  "width": 870.718635559082,
+                  "height": 140.18181800842285
+                },
+                "path": [
+                  {
+                    "x": 67.56597137451172,
+                    "y": 0
+                  },
+                  {
+                    "x": 67.56597137451172,
+                    "y": 65
+                  },
+                  {
+                    "x": 841.5659713745117,
+                    "y": 65
+                  },
+                  {
+                    "x": 841.5659713745117,
+                    "y": 130
+                  }
+                ],
+                "source": {
+                  "direction": "Down",
+                  "element": "class_z61htn5hp_mvuyabvh_9uq",
+                  "multiplicity": "1",
+                  "role": "todoItem",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Up",
+                  "element": "class_ibp1gf23h_mvuyabvh_ccb",
+                  "multiplicity": "0..*",
+                  "role": "comments",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              },
+              "rel_5q6uu23r7_mvuyabvh_fz2": {
+                "id": "rel_5q6uu23r7_mvuyabvh_fz2",
+                "name": "userComment",
+                "type": "ClassBidirectional",
+                "owner": null,
+                "bounds": {
+                  "x": -138.7359746297201,
+                  "y": -442.5,
+                  "width": 817.8886388142904,
+                  "height": 885.1818180084229
+                },
+                "path": [
+                  {
+                    "x": 51.40264129638672,
+                    "y": 0
+                  },
+                  {
+                    "x": 51.40264129638672,
+                    "y": 437.5
+                  },
+                  {
+                    "x": 788.7359746297201,
+                    "y": 437.5
+                  },
+                  {
+                    "x": 788.7359746297201,
+                    "y": 875
+                  }
+                ],
+                "source": {
+                  "direction": "Down",
+                  "element": "class_9naxt6pyi_mvuyabvg_7hm",
+                  "multiplicity": "1",
+                  "role": "author",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Up",
+                  "element": "class_ibp1gf23h_mvuyabvh_ccb",
+                  "multiplicity": "0..*",
+                  "role": "userComment",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              }
+            },
+            "assessments": {}
+          },
+          "lastUpdate": "2026-10-30T12:32:42.150Z"
+        }
+      ]
+    },
+    "settings": {
+      "defaultDiagramType": "ClassDiagram",
+      "autoSave": true,
+      "collaborationEnabled": false,
+      "perspectives": {
+        "ClassDiagram": true,
+        "ObjectDiagram": true,
+        "StateMachineDiagram": true,
+        "AgentDiagram": true,
+        "UserDiagram": true,
+        "GUINoCodeDiagram": true,
+        "QuantumCircuitDiagram": true,
+        "NNDiagram": true,
+        "BPMN": true,
+        "ComponentDiagram": true,
+        "DeploymentDiagram": true,
+        "KnowledgeGraphDiagram": true
+      },
+      "preferredInterface": "agent"
+    }
+  },
+  "exportedAt": "2026-10-30T12:32:50.973Z",
+  "version": "2.0.0",
+  "editorVersion": "1.0.0"
+}

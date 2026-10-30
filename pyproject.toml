@@ -1,0 +1,11 @@
+[project]
+name = "win11-todo"
+version = "1.0.0"
+description = "A local Windows 11 desktop todo application"
+requires-python = ">=3.10"
+
+[project.scripts]
+win11-todo = "todo_app:main"
+
+[tool.setuptools]
+py-modules = ["todo_app"]
